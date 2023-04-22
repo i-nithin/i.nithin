@@ -11,7 +11,7 @@ const About = () => {
             I'm a Software Developer.
           </h1>
           <p className="mb-10 leading-relaxed text-white">
-            I’m a front-end developer and general doodler with a keen eye for
+            I’m a Software Developer and general doodler with a keen eye for
             creating engaging UI, bringing products to life and also blending
             the art of design with programming skills to deliver an immersive
             and engaging user experience through efficient website development,

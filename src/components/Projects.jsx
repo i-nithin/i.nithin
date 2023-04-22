@@ -1,5 +1,5 @@
 import React from "react";
-import { projData } from '../data'
+import { projData } from "../data";
 import { CodeBracketIcon } from "@heroicons/react/24/solid";
 
 const Projects = () => {
@@ -15,9 +15,10 @@ text-white"
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Take a sneak peak into my github profile{" "}
+            <a href="https://github.com/i-nithin" className="text-blue-500">
+              i-nithin
+            </a>
           </p>
         </div>
         <div className="flex flex-wrap m-4">
@@ -47,10 +48,19 @@ text-green-400 mb-1"
                   >
                     {project.subtitle}
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {project.title}
+                  <h1 className="title-font text-lg font-medium text-white mb-3 inline-flex">
+                    {project.title}{" "}
+                    <svg
+                      className="w-5 h-5 ml-2 mt-1 text-blue-500"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
+                      <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
+                    </svg>
                   </h1>
-                  <p className="leading-relaxed">{project.description}</p>
+                  <p className="leading-relaxed ">{project.description}</p>
                 </div>
               </div>
             </a>
