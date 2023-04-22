@@ -1,35 +1,35 @@
 export const projData = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
-    description: "Lorem?",
-    image:
-      "https://dl.airtable.com/.attachments/a0cd0702c443f31526267f38ea5314a1/2447eb7a/paris.jpg",
-    link: "https://reactbootcamp.com",
+    title: "PLAY ON",
+    subtitle: "React",
+    description: "PlayOn is an e-commerce website for sports enthusiast",
+    image: "https://i.ibb.co/5Lb9ntC/Screenshot-2023-04-22-at-8-31-29-PM.png",
+    link: "https://play-on.netlify.app",
   },
+
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description: "hello",
-    image:
-      "https://dl.airtable.com/.attachments/27f6cbfe631e303f98b97e9dafacf25b/6bbe2a07/vienna.jpeg",
-    link: "https://reedbarger.com",
+    title: "Synoptic.AI",
+    subtitle: "React ",
+    description: "Summarise any Article with sSynoptic.AI powered by ChatGPT",
+    image: "https://i.ibb.co/4ZqVDdq/Screenshot-2023-04-22-at-8-34-01-PM.png",
+    link: "https://synoptic-ai.netlify.app/",
   },
+
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description: "hello",
-    image:
-      "https://dl.airtable.com/.attachments/3efa7aa402d49c12b8769c581a96af42/d5b641e3/italy.jpeg",
+    title: "YOUPLAY",
+    subtitle: "React",
+    description:
+      "YouPlay is an in-demand entertainment app filled with trending videos on fictional characters",
+    image: "https://i.ibb.co/9TxXSBK/Screenshot-2023-04-22-at-8-49-55-PM.png",
     link: "https://jsbootcamp.com",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description: "hello",
-    image:
-      "https://dl.airtable.com/.attachments/3feee7a93af0f4f809312132090c9a80/58e3e8ec/poland.jpeg",
-    link: "https://pythonbootcamp.com",
+    title: "NewNotes",
+    subtitle: "React ",
+    description:
+      "An Advanced Notes taking app with beautiful editor and lots of other functionalities",
+    image: "https://i.ibb.co/B627xhr/Screenshot-2023-04-22-at-8-42-32-PM.png",
+    link: "https://newnoteeditor.netlify.app",
   },
 ];
 

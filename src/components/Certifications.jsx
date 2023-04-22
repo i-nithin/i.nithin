@@ -1,8 +1,8 @@
-import React from 'react'
-import { projData } from '../data'
+import React from "react";
+import { projData } from "../data";
 import { ClipboardDocumentListIcon } from "@heroicons/react/24/solid";
-import Card from './Card';
-import { certifications } from '../data'
+import Card from "./Card";
+import { certifications } from "../data";
 
 const Certifications = () => {
   return (
@@ -17,22 +17,17 @@ text-white"
             Certifications
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Acknowledgement for the knowledge that I've acquired.
           </p>
         </div>
         <div className="flex flex-wrap m-4">
-          {
-            certifications.map(item => {
-              return <Card src = { item } />
-            })
-          }
-
+          {certifications.map((item) => {
+            return <Card src={item} />;
+          })}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Certifications
+export default Certifications;
