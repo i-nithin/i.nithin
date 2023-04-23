@@ -21,7 +21,7 @@ export const projData = [
     description:
       "YouPlay is an in-demand entertainment app filled with trending videos on fictional characters",
     image: "https://i.ibb.co/9TxXSBK/Screenshot-2023-04-22-at-8-49-55-PM.png",
-    link: "https://jsbootcamp.com",
+    link: "https://youplayer.netlify.app/",
   },
   {
     title: "NewNotes",
