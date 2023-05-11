@@ -19,7 +19,7 @@ const About = () => {
           </p>
           <div className="flex justify-center">
             <a
-              href="https://i.ibb.co/Gpj8FL8/Nithin-Dev-Fresher-2022.jpg"
+              href="https://i.ibb.co/M1MyNgM/Nithin-Kumar-Developer-Resume.jpg"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6
     focus:outline-none hover:bg-green-600 rounded text-lg cursor-pointer"
             >
