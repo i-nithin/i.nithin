@@ -5,25 +5,12 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <script type="text/javascript">
-    !function(c,l,a,r,i,t,y){
-          if(a[c].v || a[c].t) return a[c]("event", c, "dup." + i.projectId);
-          a[c].t = !0;
-          (t = l.createElement(r)).async = !0;
-          t.src = "http://localhost:5500/clarity/clarity.min.js";
-          (y = l.getElementsByTagName(r)[0]).parentNode.insertBefore(t, y);
-          a[c]("start", i);
-          a[c].q.unshift(a[c].q.pop());
-          a[c]("set", "C_IS", "0");
-      }("clarity", document, window, "script", {
-          "projectId": "l5554gerrp",
-          "upload": "http://localhost:3000/collect",
-          "expire": 365,
-          "cookies": ["_uetmsclkid", "_uetvid"],
-          "track": true,
-          "lean": false,
-          "content": true,
-          "dob": 1435
-      });
+ <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="http://localhost:3000/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "l5554gerrp");
 </script>  
     <title>i-nithin.portfolio</title>
   </head>
